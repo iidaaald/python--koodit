@@ -5,4 +5,4 @@ korkeus = float(korkeus_str)
 pintala = kanta*korkeus
 piiri = (2*kanta)+(2*korkeus)
 print("suorakulmion pinta-ala:" + str(pintala))
-print("suorakulmion piiri-ala:" + str(piiri))
+print("suorakulmion piiri:" + str(piiri))
