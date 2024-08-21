@@ -1,6 +1,6 @@
-leiviskä = float(input("Anna leiviskät:"))
-naula = float(input("Anna naulat:"))
-luoti = float(input("Anna naulat:"))
+leiviskä = float(input("Anna leiviskät: "))
+naula = float(input("Anna naulat: "))
+luoti = float(input("Anna luodit: "))
 
 luotipaino = 13.3*luoti
 naulapaino = naula*(32*13.3)
