@@ -7,6 +7,6 @@ def listan_summa(lista):
         sum =  sum + lista[i]
     return sum
 
-luvut = [2, 3, 1,6]
+luvut = [2, 3, 1]
 summa = listan_summa(luvut)
 print(summa)
