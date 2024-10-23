@@ -32,10 +32,6 @@ class Auto:
         yeah = tunnit * self.nopeus + self.kuljettu_matka
         self.kuljettu_matka = yeah
 
-    #def listaa(self):
-     #   for auto in self.autot:
-      #      print(f"Auto {auto.rekisteri}:n huippunopeus on {auto.huippu}km/h. Nykyinen nopeus on {auto.nopeus}km/h ja kuljettu matka on {auto.kuljettu_matka}km")
-
 
 #Pääohjelma
 
