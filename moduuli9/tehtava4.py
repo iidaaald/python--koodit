@@ -23,7 +23,7 @@ class Auto:
         uusi = self.nopeus + muutos
         if uusi > self.huippu:
             self.nopeus = self.huippu
-        if uusi < 0:
+        elif uusi < 0:
             self.nopeus = 0
         else:
             self.nopeus = uusi
@@ -31,6 +31,10 @@ class Auto:
     def kulje(self, tunnit):
         yeah = tunnit * self.nopeus + self.kuljettu_matka
         self.kuljettu_matka = yeah
+
+    #def listaa(self):
+     #   for auto in self.autot:
+      #      print(f"Auto {auto.rekisteri}:n huippunopeus on {auto.huippu}km/h. Nykyinen nopeus on {auto.nopeus}km/h ja kuljettu matka on {auto.kuljettu_matka}km")
 
 
 #Pääohjelma
@@ -46,14 +50,22 @@ autot.append(Auto("ABC-7", random.randint(100,200)))
 autot.append(Auto("ABC-8", random.randint(100,200)))
 autot.append(Auto("ABC-9", random.randint(100,200)))
 autot.append(Auto("ABC-10", random.randint(100,200)))
+
+
 while True:
     for auto in autot:
-        nopeus = random.randint(-10, 15)
-        auto.kiihdytä(nopeus)
+        nopeuden_muutos = random.randint(-10, 15)
+        auto.kiihdytä(nopeuden_muutos)
         auto.kulje(1)
         if auto.kuljettu_matka >= 10000:
+            print("Peli loppu!")
+            #auto.listaa()
             break
+    else:
+        continue
+    break
 #taulukon luonti
-
+for auto in autot:
+    print(f"Auto {auto.rekisteri}:n huippunopeus on {auto.huippu}km/h. Nykyinen nopeus on {auto.nopeus}km/h ja kuljettu matka on {auto.kuljettu_matka}km")
 
 
