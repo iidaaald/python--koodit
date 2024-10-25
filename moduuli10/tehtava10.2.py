@@ -29,7 +29,6 @@ class Hissi:
         if self.nykyinen_kerros == num:
             print("Olet saapunut määränpäähääsi!")
 
-
     def kerros_ylös(self):
         if self.nykyinen_kerros < self.ylin_kerros:
             self.nykyinen_kerros = 1 + self.nykyinen_kerros
