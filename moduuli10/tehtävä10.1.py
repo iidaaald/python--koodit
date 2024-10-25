@@ -45,6 +45,7 @@ class Hissi:
             print(f"Hissi on kerroksessa {self.nykyinen_kerros}")
         else:
             print(f"Hissi on alimmassa kerroksessa")
+
 #Pääohjelma
 h = Hissi(0,6)
 h.siirry_kerrokseen(5)
