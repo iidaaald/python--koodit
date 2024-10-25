@@ -29,6 +29,7 @@ class Hissi:
         if self.nykyinen_kerros == num:
             print("Olet saapunut määränpäähääsi!")
 
+
     def kerros_ylös(self):
         if self.nykyinen_kerros < self.ylin_kerros:
             self.nykyinen_kerros = 1 + self.nykyinen_kerros
@@ -57,6 +58,7 @@ class Talo:
             print(f"Virhe: hissiä numero {hissin_numero} ei ole olemassa.")
             return
         self.hissit[hissin_numero -1].siirry_kerrokseen(kohde_kerros)
+
 #Pääohjelma
 talo = Talo(0, 10, 3)
 talo.aja_hissia(1, 4)
