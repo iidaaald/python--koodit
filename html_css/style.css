@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2f4f4f;
+    background-color: #AFBDB7;
+    background-image: url("https://images.pexels.com/photos/29172688/pexels-photo-29172688/free-photo-of-black-and-white-mountain-landscape.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #99a09a;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #031F13;
+}
+
+nav a {
+    color: #031F13;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #add8e6;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.product {
+    margin: 1em 0;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #add8e6;
+    color: #20b2aa;
+    border: none;
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.column {
+    text-align: center;
+    flex: 1;
+    padding: 1em;
+}
