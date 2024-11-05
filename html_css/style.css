@@ -2,7 +2,7 @@ body {
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    color: #2f4f4f;
+    color: #1f3f3f;
     background-color: #AFBDB7;
     background-image: url("https://images.pexels.com/photos/29172688/pexels-photo-29172688/free-photo-of-black-and-white-mountain-landscape.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #99a09a;
+    background-color: #ffffff;
     padding: 1em;
     text-align: center;
 }
@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #add8e6;
+    color: #508f90;
 }
 
 section {
